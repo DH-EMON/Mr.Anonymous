@@ -288,12 +288,27 @@ class jalan:
             sys.stdout.flush()
             time.sleep(0.040)
             
-logo =(""" \33[1;91m
-\33[1;91m   ___ __  __  ___  _  _   __   ___   ___ 
-\33[1;91m  | __|  \/  |/ _ \| \| |__\ \ / /_\ |_ _|
-\33[1;91m  | _|| |\/| | (_) | .` |___\ V / _ \ | | 
-\33[1;91m  |___|_|  |_|\___/|_|\_|    \_/_/ \_\___|
-
+logo =("""\033[1;32m
+@@@  @@                                  @@  @@@
+ @@@@@@                                 @@@@@@
+  @@@@@           88888888888           @@@@@
+    @@@@        888888888888888        @@@@
+      @@@@    8888888888888888888    @@@@
+        @@@@888 88888888888888 8888@@@@
+           8888  888888888888  88888@
+          88888    88888888    888888
+          88888      8888      888888
+          888888888888888888888888888
+           88888888888  888888888888
+            88888888      888888888
+             8888888888888888888888
+              88888888888888888888
+                8888888888888888
+             @@@@ ||||||||||| @@@@
+           @@@@   |||||||||||  @@@@
+          @@@@                   @@@@ 
+        @@@@@                      @@@@@
+     @@ @@@        DH-EMON        @@@ @@
 \33[1;91m╔════════════════════════════════════════╗
 \33[1;92m║[•] Author    : MD EMON ALI             ║
 \33[1;92m║[•] Facebook  : Md Emon Ali (Anonymous) ║
@@ -301,7 +316,7 @@ logo =(""" \33[1;91m
 \33[1;92m║[•] Github    : Tore Bolbo Kn           ║
 \33[1;92m║[•] Status    : TRIAL                   ║
 \33[1;92m║[•] Network   : Data / WIFI  Work       ║
-\33[1;92m║[•] Version   : 10.1                    ║
+\33[1;92m║[•] Version   : 10.2                    ║
 \33[1;92m║[•] Tools     : EDUCATION PERPOSE       ║
 \33[1;91m╚════════════════════════════════════════╝ """)
 
@@ -735,15 +750,15 @@ def crack(idf,pwv):
             koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
             koki+=' m_pixel_ratio=2.625; wd=412x756'
             heade = {'Host': 'x.facebook.com', 'viewport-width': '980',
-                    'x-fb-rlafr': '0',
+                     'x-fb-rlafr': '0',
                      'access-control-allow-origin': '*',
                      'facebook-api-version': 'v17.0',
                      'strict-transport-security': 'max-age=15552000; preload',
                      'pragma': 'no-cache',
                      'cache-control': 'private, no-cache, no-store, must-revalidate',
-                     'x-fb-request-id': 'A4-S1OUFvE-rmJS6VctrdMU',
-                     'x-fb-trace-id': 'AOXG4yyIcll',
-                     'x-fb-rev': '1008461526',
+                     'x-fb-request-id': 'AuD6VOBm8ZVxlFTgXw0x7CY',
+                     'x-fb-trace-id': 'A5B5DCGH7e+',
+                     'x-fb-rev': '1008521959',
                      'x-fb-debug': 'AMdr2YboEeHg9nScDnAfXuWfwyn5Ea3sYI8SrOW2quzEhDbvNbEcIx9xUlTDFfsknXNIhV9ifvQXbqnxvN25vg==',
                      'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"',
                      'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"',
@@ -798,10 +813,10 @@ def crackfree(idf, pwv):
                                 "strict-transport-security": "max-age=15552000; preload",
                                 "pragma": "no-cache",
                                 "cache-control": "private, no-cache, no-store, must-revalidate",
-                                "x-fb-request-id": "A4-S1OUFvE-rmJS6VctrdMU",
-                                "x-fb-trace-id": "AOXG4yyIcll",
-                                "x-fb-rev": "1008461526",
-                                "x-fb-debug": "AMdr2YboEeHg9nScDnAfXuWfwyn5Ea3sYI8SrOW2quzEhDbvNbEcIx9xUlTDFfsknXNIhV9ifvQXbqnxvN25vg==",
+                                "x-fb-request-id": "AuD6VOBm8ZVxlFTgXw0x7CY",
+                                "x-fb-trace-id": "A5B5DCGH7e+",
+                                "x-fb-rev": "1008521959",
+                                "x-fb-debug": "UNDf9AS4FAiLizFmZq4o5BEfj5I7dz6wWczdn4eqhkvifx8PRAK0prdh4gVVME+ngkmRn3cX3JzdiQqaGiGDBQ==",
                                 "upgrade-insecure-requests": "1",
                                 "user-agent": ua2,
                                 "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9",
@@ -823,9 +838,9 @@ def crackfree(idf, pwv):
                      'strict-transport-security': 'max-age=15552000; preload',
                      'pragma': 'no-cache',
                      'cache-control': 'private, no-cache, no-store, must-revalidate',
-                     'x-fb-request-id': 'A4-S1OUFvE-rmJS6VctrdMU',
-                     'x-fb-trace-id': 'AOXG4yyIcll',
-                     'x-fb-rev': '1008461526',
+                     'x-fb-request-id': 'AuD6VOBm8ZVxlFTgXw0x7CY',
+                     'x-fb-trace-id': 'A5B5DCGH7e+',
+                     'x-fb-rev': '1008521959',
                      'x-fb-debug': 'AMdr2YboEeHg9nScDnAfXuWfwyn5Ea3sYI8SrOW2quzEhDbvNbEcIx9xUlTDFfsknXNIhV9ifvQXbqnxvN25vg==',
                      'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"',
                      'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"',
